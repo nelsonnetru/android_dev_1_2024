@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/centralTextInfo"
+        style="@style/MyCustomText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="6"
+        android:text="@string/allSeatsAreFree"
+        android:textSize="20sp"
+        tools:text="@tools:sample/lorem/random" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:textSize="40sp"
+        app:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:text="@string/labelCounter" />
+
+    <ImageButton
+        android:id="@+id/plusOneButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:src="@drawable/baseline_exposure_plus_1_24"
+        android:contentDescription="@string/labelPlusOne"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageButton
+        android:id="@+id/minusOneButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:src="@drawable/baseline_exposure_neg_1"
+        android:contentDescription="@string/labelNegOne"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LabelButtonClear"
+        android:visibility="invisible"
+        android:layout_gravity="top|center_horizontal"  />
+
+</FrameLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyFirstApp</string>
+    <string name="allSeatsAreFree">Все места свободны</string>
+    <string name="freeSeats">Осталось мест:</string>
+    <string name="tooManyPassengers">Слишком много пассажиров</string>
+    <string name="LabelButtonClear">Сброс</string>
+    <string name="labelCounter">0</string>
+    <string name="labelNegOne">-1</string>
+    <string name="labelPlusOne">+1</string>
+</resources>
